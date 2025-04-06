@@ -1,9 +1,14 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eswari E - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-</head><body>
+</head>
+
+<body>
   <header>
     <nav>
       <h1>Eswari E</h1>
@@ -14,16 +19,22 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-  </header>  <section class="hero">
+  </header>
+
+  <section class="hero">
     <img src="profile.jpg" alt="Eswari's Profile Photo" class="profile-pic" />
     <h2>Hello! I'm Eswari</h2>
     <p>Aspiring Engineer | Passionate Learner | Future Innovator</p>
-  </section>  <section id="about" class="content">
+  </section>
+
+  <section id="about" class="content">
     <h2>About Me</h2>
     <p>
       I'm <strong>Eswari E</strong>, a B.E. Electrical and Electronics Engineering student at Karpagam College of Engineering. I'm passionate about combining technology and creativity to develop innovative solutions that make a difference in the world. My interests include embedded systems, IoT, AI-assisted projects, and helping others through meaningful designs.
     </p>
-  </section>  <section id="skills" class="content">
+  </section>
+
+  <section id="skills" class="content">
     <h2>Skills</h2>
     <ul class="skills">
       <li>C Programming</li>
@@ -33,18 +44,29 @@
       <li>Problem Solving</li>
       <li>Soft Skills & Communication</li>
     </ul>
-  </section>  <section id="projects" class="content">
+  </section>
+
+  <section id="projects" class="content">
     <h2>Projects</h2>
     <ul>
       <li>Real-Time Accident Detection using YOLOv8 and Raspberry Pi</li>
       <li>Voice-Controlled Mechanical Glove for Paralyzed Individuals</li>
-      <li>Solar Energy tracker without electric devices</li>
+      <li>Non-Electrical Solar Tracker</li>
     </ul>
-  </section>  <section id="contact" class="content">
+  </section>
+
+  <section id="contact" class="content">
     <h2>Contact Me</h2>
     <p>Email: eswarimuthu2005@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/EswariE2005" target="_blank">github.com/EswariE2005</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/Eswari2005" target="_blank">linkedin.com/in/Eswari2005</a></p>
-    <p>GitHub: <a href="https://github.com/EswariE2005" target="_blank">github.com/EswariE2005"</a></p>
-  </section>  <footer>
-    <p>Designed by Eswari | &copy; 2025</p>
-  </footer>  <script src="script.js"></script></body></html>
+  </section>
+
+  <footer>
+    <p>Designed with love by Eswari | &copy; 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
