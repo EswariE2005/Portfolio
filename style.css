@@ -20,6 +20,7 @@ header {
 
 nav {
   max-width: 1100px;
+  font-size: 36px;
   margin: auto;
   padding: 0 20px;
   display: flex;
@@ -45,8 +46,8 @@ nav a {
   background-color: #e6e6fa;
 }
 .profile-pic {
-  width: 700px;     
-  height: 700px;
+  width: 400px;     
+  height: 400px;
   border-radius: 50%; 
   object-fit: cover;
   border: 3px solid #555;
@@ -61,6 +62,7 @@ nav a {
 .skills {
   display: flex;
   flex-wrap: wrap;
+  font-size: 20px;
   gap: 10px;
   list-style: none;
 }
