@@ -59,21 +59,34 @@ nav a {
   padding: 0 20px;
 }
 
-.skills {
+}.skills {
   display: flex;
-  font-size: 30px; 
   flex-wrap: wrap;
-  font-size: 20px
   gap: 10px;
   list-style: none;
+  font-size: 20px; 
 }
+
+.skills li {
+  background: #4b0082; /* Fixed: #4b008 is invalid, #4b0082 is indigo */
+  color: white;
+  font-size: 20px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  }
 
 .skills li {
   background: #4b008; 
   color: white;
-  font-size: 20px
+  font-size: 20px;
   padding: 8px 16px;
   border-radius: 20px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
