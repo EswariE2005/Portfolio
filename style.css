@@ -4,13 +4,13 @@
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
 }
-
 body {
-  background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif; /* or Roboto, Arial, Georgia, etc. */
   color: #333;
-  line-height: 1.6;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
 }
-
 header {
   background-color: #4b0082;
   color: #fff;
@@ -43,15 +43,14 @@ nav a {
   padding: 50px 20px;
   background-color: #e6e6fa;
 }
-
 .profile-pic {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  width: 200px;     
+  height: 200px;
+  border-radius: 50%; 
   object-fit: cover;
-  margin-bottom: 20px;
+  border: 3px solid #555;
+  margin-top: 20px;
 }
-
 .content {
   max-width: 900px;
   margin: 40px auto;
