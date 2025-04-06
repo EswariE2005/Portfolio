@@ -58,30 +58,23 @@ nav a {
   margin: 40px auto;
   padding: 0 20px;
 }
-
-}.skills {
+.skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 15px; /* Controls space between items in flex layout */
   list-style: none;
-  font-size: 20px; 
+  font-size: 20px;
+  padding: 0;
+  justify-content: center;
 }
 
 .skills li {
-  background: #4b0082; /* Fixed: #4b008 is invalid, #4b0082 is indigo */
+  background: #4b0082;  /* Deep purple */
   color: white;
   font-size: 20px;
-  padding: 8px 16px;
+  padding: 10px 20px;
   border-radius: 20px;
-  margin: 5
-  }
-
-.skills li {
-  background: #4b008; 
-  color: white;
-  font-size: 20px;
-  padding: 8px 16px;
-  border-radius: 20px;
+  margin: 10px; /* Adds space between each skill */
 }
 
 .skills-container {
