@@ -45,8 +45,8 @@ nav a {
   background-color: #e6e6fa;
 }
 .profile-pic {
-  width: 400px;     
-  height: 400px;
+  width: 700px;     
+  height: 700px;
   border-radius: 50%; 
   object-fit: cover;
   border: 3px solid #555;
